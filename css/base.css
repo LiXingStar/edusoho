@@ -1,4 +1,4 @@
-body,ul,ol,li,form,input,textarea,select,option,h1,h2,h3,h4,h5,h6,p,pre{
+body,ul,ol,li,form,input,textarea,select,option,h1,h2,h3,h4,h5,h6,p,pre,button{
     padding:0;
     margin:0;
     list-style: none;
@@ -17,6 +17,9 @@ img{
     color:#666666;
     font-size:12px;
     font-family:"Microsoft YaHei";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 body{
     background:#fff;
