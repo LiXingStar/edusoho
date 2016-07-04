@@ -1,0 +1,23 @@
+body,ul,ol,li,form,input,textarea,select,option,h1,h2,h3,h4,h5,h6,p,pre{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+img{
+    border:none;
+}
+*{
+    color:#666666;
+    font-size:12px;
+    font-family:"Microsoft YaHei";
+}
+body{
+    background:#fff;
+}
