@@ -1,0 +1,114 @@
+.course{
+    width:100%;
+    height:auto;
+    min-height:500px;
+}
+.courseTit{
+    width:100%;
+    height:auto;
+    padding:30px 10px 20px;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight:300;
+}
+.courseDis{
+    width:100%;
+    height:auto;
+    padding:0 0 10px 0;
+    color: #c1c1c1;
+    font-size: 16px;
+    text-align: center;
+}
+.courseRole{
+    width: 1160px;
+    height:50px;
+    margin:10px auto;
+
+}
+.courseRole li{
+    padding:10px 20px;
+    margin:0 15px;
+    transition: all ease  0.3s;
+    float: left;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.courseRole li:hover{
+    background:#f5f5f5;
+}
+.courseList {
+    width: 1160px;
+    height:auto;
+    margin:0 auto;
+}
+.courseList li{
+    float: left;
+    width:270px;
+    height:260px;
+    margin:0 10px;
+}
+.courseList .courseItem{
+    width:100%;
+    height:230px;
+    border:1px solid #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s ;
+    -ms-transition: all ease 0.3s ;
+    -o-transition: all ease 0.3s ;
+    transition: all ease 0.8s;
+    position: relative;
+    top:0;
+}
+.courseList .courseItem:hover{
+    top: -10px;
+    -webkit-box-shadow: 0 6px 6px  rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 6px 6px rgba(0,0,0,0.2) ;
+    box-shadow: 0 6px 6px  rgba(0,0,0,0.2);
+}
+.courseItem .courseImg{
+    width:100%;
+    height: 160px;
+    overflow: hidden;
+}
+.courseItem .courseImg img{
+    width:100%;
+    height:100%;
+}
+.courseItem .courseInfo{
+    margin-top: 10px;
+    color: #c1c1c1;
+}
+.courseItem .courseInfo span{
+     margin:0 4px;
+ }
+.courseItem .courseInfo span:last-of-type{
+    float: right;
+}
+.more{
+    width:100%;
+    height:auto;
+}
+.more a{
+    display: block;
+    width: 95px;
+    padding: 10px;
+    text-align: center;
+    margin:10px auto;
+    border:1px solid #dedede;
+    background: #f5f5f5;
+    color: #616161;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.more  i{
+    font-size: 10px;
+}
+.more a:hover{
+    background:#ccc;
+}
